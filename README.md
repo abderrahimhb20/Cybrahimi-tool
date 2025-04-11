@@ -4,8 +4,8 @@ tool about dos attack
 # 🚨 Cybrahimi DoS Tool (Educational)  
 *A multi-vector Denial-of-Service (DoS) testing tool for cybersecurity research.*  
 
+![2025-04-11 20_11_30-kali-linux-2024 3-vmware-amd64 - VMware Workstation 16 Player](https://github.com/user-attachments/assets/e2ff729e-6b1b-42e8-bd95-c0c7731d85af)
 
-![Uploading 2025-04-11 20_11_30-kali-linux-2024.3-vmware-amd64 - VMware Workstation 16 Player.png…]()
 
 ---
 
