@@ -84,10 +84,4 @@ sudo ./cybrahimi.sh
 
 🚀 **Happy ethical hacking!**  
 
---- 
 
-### How to Use This:  
-1. Save as `README.md` in your GitHub repo.  
-2. Customize the `yourusername` link.  
-3. Add a banner image if desired.  
-4. Update features/attacks if you modify the tool.  
