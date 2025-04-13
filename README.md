@@ -35,9 +35,9 @@ tool about dos attack
  🛠 **Installation**  
 ```bash
 git clone https://github.com/abderrahimhb20/Cybrahimi-tool.git
-cd cybrahimi
-chmod +x cybrahimi.sh
-sudo ./cybrahimi.sh
+cd Cybrahimi-tool
+chmod +x Cybrahimi.sh
+sudo ./Cybrahimi.sh
 ```
 **Dependencies**:  
 - `hping3` (`sudo apt install hping3` on Debian/Ubuntu)  
@@ -48,7 +48,7 @@ sudo ./cybrahimi.sh
  🎯 **Usage**  
 1. **Run the tool**:  
    ```bash
-   sudo ./cybrahimi.sh
+   sudo ./Cybrahimi.sh
    ```
 2. **Enter target** (IP or domain).  
 3. **Select attack method**:  
