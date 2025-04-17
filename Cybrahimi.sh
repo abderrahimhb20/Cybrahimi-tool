@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# ========== COLORS ==========
 RED="\033[1;31m"
 GREEN="\033[1;32m"
 YELLOW="\033[1;33m"
@@ -9,13 +8,11 @@ CYAN="\033[1;36m"
 MAGENTA="\033[1;35m"
 RESET="\033[0m"
 
-# ========== MAPPINGS ==========
 declare -A attack_map=(
     [1]="syn" [2]="ack" [3]="fin" [4]="rst"
     [5]="udp" [6]="icmp" [7]="http" [8]="ping" [9]="all"
 )
 
-# ========== FUNCTIONS ==========
 welcome_intro() {
     echo -e "${BLUE}[>]${CYAN} Welcome to the ${MAGENTA}Cybrahimi DoS Tool${CYAN}!${RESET}"
     echo -e "${YELLOW}[~] Starting tool in 3 seconds...${RESET}"
@@ -114,7 +111,6 @@ for key in "${!attack_map[@]}"; do
     attack_map_inverse[${attack_map[$key]}]=$key
 done
 
-# ========== MAIN ==========
 main() {
     check_tools
     welcome_intro
@@ -128,10 +124,8 @@ main() {
     while true; do
         read -p $'\033[1;33m[?]\033[0m Enter attack method (1-9 or name): ' input
         
-        # Convert input to lowercase if it's text
         input_lc=$(echo "$input" | tr '[:upper:]' '[:lower:]')
         
-        # Check if input is a valid number (1-9) or attack name
         if [[ "$input" =~ ^[1-9]$ ]]; then
             attack="${attack_map[$input]}"
             break
